@@ -1,0 +1,16 @@
+# Assign `import_file` to the name of the file 
+
+import_file = "allow_list.txt"
+
+# Assign `remove_list` to a list of IP addresses that are no longer allowed to access restricted information. 
+
+remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
+
+# First line of `with` statement
+
+with open(allow_list.txt, "r") as file:
+
+# File "<ipython-input-9-29f09ba1ec2a>", line 11
+    # with open(allow_list.txt, "r") as file:
+                                           ^
+# SyntaxError: unexpected EOF while parsing
